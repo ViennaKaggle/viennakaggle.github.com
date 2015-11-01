@@ -20,5 +20,11 @@
                 <i class="fa fa-twitter"></i>
             </a>
         {% endif %}
+
+        {% if site.author.meetup %}
+            <a href="http://www.meetup.com/{{ site.author.meetup }}" class="social-links__entry" target="_blank">
+                <img src="{{ '/assets/images/meetup_logo.svg' | prepend: site.baseurl }}" alt="Meetup">
+            </a>
+        {% endif %}
     </ul>
 </header>
