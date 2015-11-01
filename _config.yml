@@ -9,9 +9,9 @@ author:
   fullname: ViennaKaggle
   github: ViennaKaggle
   twitter: "#ViennaKaggle"
-  # disqus: your_disqus_username
+  disqus: chaosmail
 
-# google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-69537743-1'
 
 # Build settings
 markdown: kramdown
