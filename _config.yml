@@ -1,0 +1,17 @@
+# Site settings
+title: ViennaKaggle
+email: office@chaosmail.at
+description: "ViennaKaggle Blog"
+baseurl: ""
+url: "https://viennakaggle.github.io"
+
+author:
+  fullname: ViennaKaggle
+  github: ViennaKaggle
+  twitter: "#ViennaKaggle"
+  # disqus: your_disqus_username
+
+# google_analytics: 'UA-XXXXXXXX-X'
+
+# Build settings
+markdown: kramdown

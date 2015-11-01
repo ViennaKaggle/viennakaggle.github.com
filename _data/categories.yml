@@ -1,0 +1,14 @@
+- slug: meetup
+  name: Meetups
+
+- slug: tutorial
+  name: Tutorials
+
+- slug: tool
+  name: Tools
+
+- slug: event
+  name: Events
+
+- slug: other
+  name: Others
