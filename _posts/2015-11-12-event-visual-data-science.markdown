@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event: Visual Data Science Meetup"
+title:  "Visual Data Science Meetup"
 subtitle: "Vienna Data Science"
 date:   2015-11-12 19:00:00
 categories: [event]

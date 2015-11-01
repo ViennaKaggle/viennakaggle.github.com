@@ -4,7 +4,7 @@ email: office@chaosmail.at
 description: "ViennaKaggle Blog"
 baseurl: ""
 url: "https://viennakaggle.github.io"
-
+timezone: Europe/Vienna
 author:
   fullname: ViennaKaggle
   meetup: Vienna-Kaggle-Meetup-Machine-Learning-Competitions

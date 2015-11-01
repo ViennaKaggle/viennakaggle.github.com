@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event: Monthly Julia Meetup"
+title:  "Monthly Julia Meetup"
 subtitle: "Vienna Julia Meetup"
 date:   2015-11-03 19:00:00
 categories: [event]

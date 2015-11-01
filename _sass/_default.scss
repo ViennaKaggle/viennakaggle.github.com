@@ -11,7 +11,7 @@ a {
     text-decoration: none;
 
     &:hover {
-
+        text-decoration: underline;
     }
 }
 
@@ -176,6 +176,14 @@ strong {
     float: right;
     vertical-align: middle;
     color: $cloudy;
+}
+
+.post-teaser__excerpt {
+    margin-top: 4px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: normal;
 }
 
 .empty-post-list {

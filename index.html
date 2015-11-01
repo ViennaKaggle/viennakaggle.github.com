@@ -6,11 +6,51 @@ subtitle: Vienna Kaggle Meetup
 
 <ul class="list-posts">
     {% for post in site.posts %}
+      {% if post.categories contains "event" %}
+
+      {% else %}
         <li class="post-teaser">
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <span class="post-teaser__title">{{ post.title }}</span>
                 <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
             </a>
+            <span class="post-teaser__excerpt">
+              {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+              <a class="post-teaser__readmore" href="{{ post.url | prepend: site.baseurl }}">
+                  [Read more]
+              </a>
+            </span>
         </li>
+      {% endif %}
     {% endfor %}
+</ul>
+
+<h1 class="page-title post-title">
+    <div class="page-title__text post-title__text">Featured Events</div>
+    <div class="page-title__subtitle post-title__subtitle">A curated list of events for Kagglers</div>
+</h1>
+
+<ul class="list-posts">
+    {% assign empty_events = true %}
+    {% assign curDate = site.time | date: '%s' %}
+    {% for post in site.posts %}
+      {% assign postStartDate = post.date | date: '%s' %}
+      {% if post.categories contains "event" and postStartDate >= curDate %}
+        <li class="post-teaser">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <span class="post-teaser__title">{{ post.title }}</span>
+                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y at %H:%M" }}</span>
+            </a>
+            <span class="post-teaser__excerpt">{{ post.excerpt  | remove: '<p>' | remove: '</p>' }}</span>
+        </li>
+      {% assign empty_events = false %}
+      {% endif %}
+    {% endfor %}
+
+    {% if empty_events %}
+      <li class="empty-post-list">
+          It seems that there are no upcoming events.
+      </li>
+    {% endif %}
+
 </ul>

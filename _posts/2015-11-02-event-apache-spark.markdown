@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event: Apache Spark Advanced Meetup"
+title:  "Apache Spark Advanced Meetup"
 subtitle: "Big Data Developers Vienna"
 date:   2015-11-02 17:30:00
 categories: [event]

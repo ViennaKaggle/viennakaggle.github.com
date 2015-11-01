@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event: Vienna<-R 2015/III Meetup"
+title:  "Vienna<-R 2015/III Meetup"
 subtitle: "Vienna R"
 date:   2015-11-24 19:00:00
 categories: [event]

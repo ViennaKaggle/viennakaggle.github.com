@@ -12,6 +12,12 @@ layout: default
                     <span class="post-teaser__title">{{ post.title }}</span>
                     <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
                 </a>
+                <span class="post-teaser__excerpt">
+                  {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+                  <a class="post-teaser__readmore" href="{{ post.url | prepend: site.baseurl }}">
+                      [Read more]
+                  </a>
+                </span>
             </li>
             {% assign empty_category = false %}
         {% endif %}
