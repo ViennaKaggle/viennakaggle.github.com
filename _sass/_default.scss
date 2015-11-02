@@ -63,6 +63,20 @@ strong {
     color: $iron;
 }
 
+table {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+th {
+    font-weight: 700;
+}
+
+td, th {
+    padding: 4px;
+    text-align: left;
+}
+
 /* =Header */
 .wrapper {
     max-width: 800px;
