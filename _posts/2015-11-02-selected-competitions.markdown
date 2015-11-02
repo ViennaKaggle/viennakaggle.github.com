@@ -10,7 +10,7 @@ On our last meetup we decided to vote for the competitions that will be solved i
 
 ## Rossmann Store Sales
 
-In the [Rossman Store Sales competition][rossman-store-sales] we need to forecast sales using store, promotion, and competitor data. One of the challenges in this competition is to transform the store data into robust numeric model.
+In the [Rossman Store Sales competition][rossman-store-sales] we need to forecast sales using store, promotion, and competitor data. One of the challenges in this competition is to transform the store data into a robust numeric model.
 
 The store data looks like this:
 
@@ -28,12 +28,14 @@ The training data looks like this:
 
 ## Right Whale Recognition
 
-In the [Right Whale Recognition competition][right-wale-recognition] we need to automate the recognition process using a dataset of arial photographs of individual whales and identify [North Atlantic Right Whales][right-whale-wiki]. One of the challenge in this competition is to extract descriptive features out of the training images which have been hand-labeled by experts.
+In the [Right Whale Recognition competition][right-wale-recognition] we need to automate the recognition process using a dataset of arial photographs of individual whales and identify [North Atlantic Right Whales][right-whale-wiki]. One of the challenge in this competition is to extract descriptive features out of the training images which have been hand-labeled by experts. To better identify the whales, we have to understand the [Right Whale Callosity Patterns][right-whale-docs]. I found [this little game][right-whale-game] to get started.
 
-Mathworks is also providing a [Complimentary Software in MATLAB][matlab-kaggle] for this competition.
+Mathworks is providing a [Complimentary Software for MATLAB][matlab-kaggle] for this competition; however, in the Coding Session we will only use Open Source Software.
 
 [meetup-event]: http://www.meetup.com/de/Vienna-Kaggle-Meetup-Machine-Learning-Competitions/events/226456065/
 [rossman-store-sales]: https://www.kaggle.com/c/rossmann-store-sales/
 [right-wale-recognition]: https://www.kaggle.com/c/noaa-right-whale-recognition/
 [right-whale-wiki]: https://en.wikipedia.org/wiki/Right_whale
+[right-whale-game]: http://www.neaq.org/education_and_activities/games_and_activities/online_games/right_whale_identification_games.php
+[right-whale-docs]: http://www.neaq.org/conservation_and_research/projects/endangered_species_habitats/right_whale_research/right_whale_projects/monitoring_individuals_and_family_trees/identifying_with_photographs/how_it_works/callosity_patterns.php
 [matlab-kaggle]: http://www.mathworks.com/academia/student-competitions/kaggle/
