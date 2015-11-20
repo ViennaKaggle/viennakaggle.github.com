@@ -36,6 +36,7 @@ Some of us were a little more productive, others were talking about their common
 In summary, if you have not been there personally you seriously missed out on something. If you want to join the project anyway, just leave a comment and your github username to get access to the repo. Nevertheless, I would recommend you to join us personally next time - it was really fun (Don't make me mention it another time).
 
 See you the next time,
+
 \Stefan
 
 [anaconda]: https://www.continuum.io/downloads
