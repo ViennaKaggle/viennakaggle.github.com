@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Vienna Kaggle - First Hands On Meetup"
-subtitle: "How it all starts"
+subtitle: "Python is cool"
 date:   2015-11-20 06:00:00
 categories: [meetup]
 ---
