@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vienna Kaggle - 1st Meetup"
+title:  "Vienna Kaggle - First Hands On Meetup"
 subtitle: "How it all starts"
 date:   2015-11-20 06:00:00
 categories: [meetup]
@@ -30,8 +30,13 @@ Some of us were a little more productive, others were talking about their common
 * The a few directories follow named by the general tool set/language we will use.
 * The "language" directory such as the /python dir contains a utils.py file in which we put methods and classes, useful and to be reused by all of us.
 * Furthermore the language directory contains a directory, named individually by the Kaggler who is working on it. We defined it to be the first name, but I guess it doesn't matter as long as it is a unique name. For the python case, this is the place to store the Ipython notebook file(s).
+* Another thing we evaluated is, that we would enjoy working on a data set every time instead only every second time we meet.
+* Instead I suggest - something I come up as of writing this, so please leave a comment if you like my suggestion: I think it would be nice if one person could prepare some features of, e.g., scikit-learn and talk about it for about 10 min. to introduce useful topics to all of us. Even if the person, who is talking about it, is not previously familiar with the topic. What do you think about it?
 
-If you have not been there personally you seriously missed out something. If you want to join the project anyway, just leave a comment and your github username to get access to the repo. Nevertheless, I would recommend you to join us personally next time - it was really fun (Don't make me mention it another time).
+In summary, if you have not been there personally you seriously missed out on something. If you want to join the project anyway, just leave a comment and your github username to get access to the repo. Nevertheless, I would recommend you to join us personally next time - it was really fun (Don't make me mention it another time).
+
+See you the next time,
+\Stefan
 
 [anaconda]: https://www.continuum.io/downloads
 [meetup-event]: http://www.meetup.com/de/Vienna-Kaggle-Meetup-Machine-Learning-Competitions/events/226055752/
