@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Vienna Kaggle - Hands On Rossmann Store Sales"
-subtitle: "Python is cool"
+subtitle: "Sales Forcasting"
 date:   2015-12-03 06:00:00
 categories: [meetup]
 ---
@@ -12,7 +12,10 @@ See you the next time,
 
 Christoph
 
+> Anything to add? Submit a PR on [Github][blog].
+
 [meetup-event]: http://www.meetup.com/de/Vienna-Kaggle-Meetup-Machine-Learning-Competitions/events/226906315/
 [rossmann-repo]: https://github.com/ViennaKaggle/rossmann-store-sales/
 [rossmann-comp]: https://www.kaggle.com/c/rossmann-store-sales
 [sponsor]: http://http://gesim.ch/
+[blog]: https://github.com/ViennaKaggle/viennakaggle.github.com
