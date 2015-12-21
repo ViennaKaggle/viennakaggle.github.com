@@ -5,8 +5,10 @@ subtitle: "Python is cool"
 date:   2015-11-20 06:00:00
 categories: [meetup]
 ---
+
+Yesterday our [second Meetup][meetup-event] concluded successfully. In short, the amount of people could be higher, but the quality of the people who showed and the fun were definitely there. This time the sponsor was our hosts company [GESIM][sponsor], who took care of pizza, coke and beer. As always, people with an entire different background and different skills came together with but at least one common interest: Data Science. Even though we didn't reach our first goal, i.e., submitting a proper result to the Kaggle competition page, we defined a few things, that will guide us through the upcoming event. These things are summarized here.
+
 ## General Setup of the Event
-Yesterday our [second Meetup][meetup-event] concluded successfully. In short, the amount of people could be higher, but the quality of the people who showed and the fun were definitely there. This time the sponsor was our hosts company [GESIM][sponsor], who took care of pizza, coke and beer. As always, people with an entire different background and different skills came together with but at least one common interest: Data Science. Even though we didn't reach our first goal, i.e., submitting a proper result to the Kaggle competition page, we defined a few things, that will guide us through the upcoming event. These things are summarized here. 
 
 The first big thing to remark is, that we - quite naturally - decided to not team up in teams of two, but to work together as a whole Vienna Kaggle group. Everyone is suppposed to share ideas and skills and submit some code to the common [Rossmann repository][rossmann-repo]. This implies - yes, you noticed correctly if you were following this blog - that we worked on only one of the two previously chosen competitions. This is also the best way to get the most out of these Meetups:
 
