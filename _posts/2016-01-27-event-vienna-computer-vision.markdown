@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Monthly Get-Together"
+title:  "Vienna Computer Vision Meetup - Monthly Get-Together"
 subtitle: "Vienna Computer Vision Meetup"
 date:   2016-01-27 19:00:00
 categories: [event]
