@@ -2,7 +2,7 @@
 body {
     font-family: 'Inconsolata', ;
     color: $iron;
-    background-color: $dorian;
+    background-color: $bg_color;
 }
 
 a {
@@ -80,7 +80,7 @@ td, th {
 /* =Header */
 .wrapper {
     max-width: 800px;
-    margin: 100px auto;
+    margin: 0px auto;
 }
 
 .header {
@@ -88,7 +88,7 @@ td, th {
 }
 
 .navigation {
-    float:left;
+
 }
 
 .logo {
@@ -99,6 +99,7 @@ td, th {
 }
 
 .menu {
+    float: left;
     color: $cloudy;
     font-size: 18px;
     margin:0px;
@@ -122,6 +123,8 @@ td, th {
 
 .social-links {
     float:right;
+    margin-top: 6px;
+    margin-bottom: 0px;
     font-size: 24px;
     color: $cloudy;
     list-style-type: none;

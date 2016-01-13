@@ -1,30 +1,35 @@
 <header class="header">
-    <div class="navigation">
-        <a href="/" class="logo">{{ site.title }}</a>
-
-        <ul class="menu">
-            <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-            <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Blog</a></li>
-        </ul>
+    <div class="banner">
+        <a href="/" class="logo">
+            <img src="{{ '/assets/images/banner.png' | prepend: site.baseurl }}" alt="{{ site.title }}">
+        </a>
     </div>
 
-    <ul class="social-links">
-        {% if site.author.github %}
-            <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-github"></i>
-            </a>
-        {% endif %}
+    <div class="navigation">
+        <ul class="menu">
+            <li class="menu__entry"><a href="{{ '/#blog' | prepend: site.baseurl }}">Blog</a></li>
+            <li class="menu__entry"><a href="{{ '/#events' | prepend: site.baseurl }}">Events</a></li>
+            <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">About Us</a></li>
+        </ul>
 
-        {% if site.author.twitter %}
-            <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-twitter"></i>
-            </a>
-        {% endif %}
+        <ul class="social-links">
+            {% if site.author.github %}
+                <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+            {% endif %}
 
-        {% if site.author.meetup %}
-            <a href="http://www.meetup.com/{{ site.author.meetup }}" class="social-links__entry" target="_blank">
-                <img src="{{ '/assets/images/meetup_logo.svg' | prepend: site.baseurl }}" alt="Meetup">
-            </a>
-        {% endif %}
-    </ul>
+            {% if site.author.twitter %}
+                <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            {% endif %}
+
+            {% if site.author.meetup %}
+                <a href="http://www.meetup.com/{{ site.author.meetup }}" class="social-links__entry" target="_blank">
+                    <img src="{{ '/assets/images/meetup_logo.svg' | prepend: site.baseurl }}" alt="Meetup">
+                </a>
+            {% endif %}
+        </ul>
+    </div>
 </header>

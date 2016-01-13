@@ -3,15 +3,15 @@
     <head>
         {% include meta_tags/base.html %}
         {% include meta_tags/sharing.html %}
-
         {% include externals/styling.html %}
     </head>
 
     <body>
         <div class="wrapper">
             {% include header.html %}
-
-            {{ content }}
+            <div id="blog">
+                {{ content }}
+            </div>
         </div>
 
         {% include externals/scripting.html %}
